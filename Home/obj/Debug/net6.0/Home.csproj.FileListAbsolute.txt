@@ -1,0 +1,15 @@
+D:\CSharp\Practice\Assistant\Home\bin\Debug\net6.0\Home.exe
+D:\CSharp\Practice\Assistant\Home\bin\Debug\net6.0\Home.deps.json
+D:\CSharp\Practice\Assistant\Home\bin\Debug\net6.0\Home.runtimeconfig.json
+D:\CSharp\Practice\Assistant\Home\bin\Debug\net6.0\Home.dll
+D:\CSharp\Practice\Assistant\Home\bin\Debug\net6.0\ref\Home.dll
+D:\CSharp\Practice\Assistant\Home\bin\Debug\net6.0\Home.pdb
+D:\CSharp\Practice\Assistant\Home\obj\Debug\net6.0\Home.csproj.AssemblyReference.cache
+D:\CSharp\Practice\Assistant\Home\obj\Debug\net6.0\Home.GeneratedMSBuildEditorConfig.editorconfig
+D:\CSharp\Practice\Assistant\Home\obj\Debug\net6.0\Home.AssemblyInfoInputs.cache
+D:\CSharp\Practice\Assistant\Home\obj\Debug\net6.0\Home.AssemblyInfo.cs
+D:\CSharp\Practice\Assistant\Home\obj\Debug\net6.0\Home.csproj.CoreCompileInputs.cache
+D:\CSharp\Practice\Assistant\Home\obj\Debug\net6.0\Home.dll
+D:\CSharp\Practice\Assistant\Home\obj\Debug\net6.0\ref\Home.dll
+D:\CSharp\Practice\Assistant\Home\obj\Debug\net6.0\Home.pdb
+D:\CSharp\Practice\Assistant\Home\obj\Debug\net6.0\Home.genruntimeconfig.cache
