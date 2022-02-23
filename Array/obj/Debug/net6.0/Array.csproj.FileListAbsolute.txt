@@ -1,0 +1,15 @@
+D:\CSharp\Repository\TERP\Array\bin\Debug\net6.0\Array.exe
+D:\CSharp\Repository\TERP\Array\bin\Debug\net6.0\Array.deps.json
+D:\CSharp\Repository\TERP\Array\bin\Debug\net6.0\Array.runtimeconfig.json
+D:\CSharp\Repository\TERP\Array\bin\Debug\net6.0\Array.dll
+D:\CSharp\Repository\TERP\Array\bin\Debug\net6.0\ref\Array.dll
+D:\CSharp\Repository\TERP\Array\bin\Debug\net6.0\Array.pdb
+D:\CSharp\Repository\TERP\Array\obj\Debug\net6.0\Array.csproj.AssemblyReference.cache
+D:\CSharp\Repository\TERP\Array\obj\Debug\net6.0\Array.GeneratedMSBuildEditorConfig.editorconfig
+D:\CSharp\Repository\TERP\Array\obj\Debug\net6.0\Array.AssemblyInfoInputs.cache
+D:\CSharp\Repository\TERP\Array\obj\Debug\net6.0\Array.AssemblyInfo.cs
+D:\CSharp\Repository\TERP\Array\obj\Debug\net6.0\Array.csproj.CoreCompileInputs.cache
+D:\CSharp\Repository\TERP\Array\obj\Debug\net6.0\Array.dll
+D:\CSharp\Repository\TERP\Array\obj\Debug\net6.0\ref\Array.dll
+D:\CSharp\Repository\TERP\Array\obj\Debug\net6.0\Array.pdb
+D:\CSharp\Repository\TERP\Array\obj\Debug\net6.0\Array.genruntimeconfig.cache
