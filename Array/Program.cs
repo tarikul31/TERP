@@ -14,7 +14,7 @@ int[] myar2 = new int[] { 20, 15, 10, 25, 10 };
 double result = myavg(myar2);
 Console.WriteLine($"Average Result : { result}");
 
-int mysum (int[] arrs)
+int mysum(int[] arrs)
 {
     int res = 0;
     for (int i = 0; i < arrs.Length; i++)
@@ -33,19 +33,57 @@ double myavg(int[] arrs2)
 
 #region jagged array
 int[][] myar3 = new int[4][];
-myar3[0] = new int[] {5,6,8,4,7};
-myar3[1] = new int[] {40,45,48};
-myar3[2] = new int[] {80,85,88,90,95};
-myar3[3] = new int[] {2000,5000,9000,7000,3000};
-for(int i = 0; i < myar3.Length; i++)
+myar3[0] = new int[] { 5, 6, 8, 4, 7 };
+myar3[1] = new int[] { 40, 45, 48 };
+myar3[2] = new int[] { 80, 85, 88, 90, 95 };
+myar3[3] = new int[] { 2000, 5000, 9000, 7000, 3000 };
+for (int i = 0; i < myar3.Length; i++)
 {
-    Console.Write($"Element of Array : ",i+1 );
-    for(int j=0; j < myar3[i].Length; j++)
+    Console.Write($"Element of Array : ", i + 1);
+    for (int j = 0; j < myar3[i].Length; j++)
     {
         Console.Write(myar3[i][j] + "\t");
     }
     Console.WriteLine();
 }
 Console.ReadKey();
+
+#endregion
+
+#region arrayinput
+Console.WriteLine("Enter The Array Size : ");
+int size = 0;
+string sizeInput = Console.ReadLine();
+size = int.Parse(sizeInput);
+if(int.TryParse(sizeInput, out size))
+{
+    int[,] grids = new int[size,size];
+    for(int i=0; i < size; i++)
+    {
+        string rows = Console.ReadLine();
+        string[] numbers = rows.Split(' ');
+
+        for(int j=0;j< numbers.Length && j<size; j++)
+        {
+            grids[i,j] = int.Parse(numbers[j]);
+        }
+    }
+    Console.WriteLine("Shows Grid Output :");
+    for(int i=0;i<size; i++)
+    {
+        for(int j = 0; j < size; j++)
+        {
+            Console.Write(grids[i,j]);
+            Console.Write(" ");
+        }
+        Console.WriteLine();
+    }
+
+}
+else
+{
+    Console.WriteLine("Input is Not Currect Format");
+}
+
 
 #endregion
