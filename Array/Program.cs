@@ -60,8 +60,8 @@ if(int.TryParse(sizeInput, out size))
     int[,] grids = new int[size,size];
     for(int i=0; i < size; i++)
     {
-        string rows = Console.ReadLine();
-        string[] numbers = rows.Split(' ');
+        string rows2 = Console.ReadLine();
+        string[] numbers = rows2.Split(' ');
 
         for(int j=0;j< numbers.Length && j<size; j++)
         {
@@ -86,4 +86,40 @@ else
 }
 
 
+#endregion
+
+Console.WriteLine("Enter Numbers :");
+string rows = Console.ReadLine();
+if (rows.Trim().Length > 0)
+{
+    string[] snumber = (rows.Trim()).Split(' ');
+    int[] numbers = new int[snumber.Length];
+
+    for (int i = 0; i < snumber.Length; i++)
+    {
+        numbers[i] = Convert.ToInt32(snumber[i]);
+    }
+    for (int i = 0; i < numbers.Length; i++)
+    {
+        Console.WriteLine($"Item of Array : {i} Position is : { numbers[i]}");
+    }
+    int result2 = sumCalculations(numbers);
+    Console.WriteLine($"Sum of Result : { result2}");
+
+    int sumCalculations(int[] arrs)
+    {
+        int res = 0;
+        for (int i = 0; i < arrs.Length; i++)
+        {
+            res += arrs[i];
+        }
+        return res;
+    }
+}
+else
+{
+    Console.WriteLine("Input Format Not Valid");
+}
+
+#region string to int operations
 #endregion
