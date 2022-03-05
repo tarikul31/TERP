@@ -15,7 +15,12 @@
       "ProjectGuid": "b1b63721-e318-4d0a-84f6-c2b95b72ac5b",
       "DisplayName": "Array",
       "ColorIndex": 2
+    },
+    "7ea9bc99-9097-4c4a-8272-a3502a0bc6e2": {
+      "ProjectGuid": "7ea9bc99-9097-4c4a-8272-a3502a0bc6e2",
+      "DisplayName": "Assignment1",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 4
 }
